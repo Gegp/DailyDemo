@@ -12,6 +12,9 @@ public class LoginHandlerInterceptor extends HandlerInterceptorAdapter{
 	 * return false ：停止url的访问。
 	 * return true　　：允许url继续访问。
 	 */
+	 
+	 
+	 
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
 		String path = request.getServletPath();
